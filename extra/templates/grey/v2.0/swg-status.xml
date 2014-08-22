@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<zoneServer>
+	<name>Core3</name>
+	<status>up</status>
+	<users>
+		<connected>0</connected>
+		<max>0</max>
+		<total>0</total>
+		<deleted>0</deleted>
+	</users>
+	<timestamp>1219272014</timestamp>
+</zoneServer>

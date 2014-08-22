@@ -1,0 +1,314 @@
+/* .for myself usage only */
+
+*{
+	padding: 0em;
+	margin: 0em;
+}
+
+html{
+	font-size: 100.01%;
+}
+
+body{
+	background-color: #24486b;
+	background: transparent url('images/bg_main.gif') repeat-x;
+	color: #303030;
+	font-family: Verdana;
+	font-size: 0.625em;
+	padding: 0;
+	margin: 0;
+	line-height: 1.8em;
+}
+
+h1,h2,h3,h3,h4,h5,h6,address,caption,code,dfn,th,var{
+	font-style:normal;
+	font-weight:normal;
+}
+
+caption,th {
+	text-align:left;
+}
+
+img,fieldset,abbr{
+	border: 0;
+}
+
+input,
+textarea{
+	font-family: Verdana;
+	font-size: 1.2em;	
+}
+
+:focus{
+	outline: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.clear{
+	clear: both;
+}
+
+.relative{
+	position: relative;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link,
+a:visited{
+	color: #2b5c91;
+	border-bottom: 0.1em dotted #2b5c91;
+}
+
+a:hover{
+	color: #0367a5;
+	border-bottom: 0.1em solid #0367a5;
+}
+
+h1{
+
+}
+
+h2 {
+
+}
+
+h3{
+	color: #0a1c26;
+	font-size: 1.6em;
+}
+
+h4{
+	font-size: 1.4em;
+}
+
+h5{
+	font-size: 1.3em;
+}
+
+.strike{
+	text-decoration: line-through;
+}
+
+.strike:hover{
+	text-decoration: none;
+}
+
+/* HEADER */
+
+#header_left{
+	border-bottom: 0.1em solid #2b5b8d;
+}
+
+.logo{
+	text-align: center;
+	height: 16em;
+}
+
+.logo a{
+	border: 0;
+}
+
+.logo img{
+
+}
+
+#header_right{
+	height: 15.9em;
+	background-color: #FFF;
+	border-right: 0.1em solid #2b5b8d;
+	border-top: 0.1em solid #2b5b8d;
+	border-bottom: 0.1em solid #eaf1f9;
+	position: relative;
+}
+
+.calltowar{
+	margin-left: 2em;
+}
+
+.lang {
+	background-color: #FFF;
+	border: 0.1em solid #d9d9d9;
+	border-top: 0;
+	position: absolute;
+	right: 1em;
+	top: 0;
+	line-height: normal;
+}
+
+.lang a{
+	border: 0;
+	display: block;
+	padding: 0.3em;
+}
+
+.lang li{
+}
+
+.lang li:hover{
+	background-color: #eaf1f9;
+}
+
+/* CONTAINER */
+
+#container{
+	padding: 0;
+	margin: 2em 2em 0em 2em;
+	padding-left: 18.8em;	
+	min-width: 68em;
+	background-color: #eaf1f9;
+	border: 0.5em solid #336799;
+	border-left: 0;
+}
+
+/* LEFT BLOCK */
+
+#leftblock{
+	float: left;
+	width: 18.8em;
+	margin-left: -18.8em;
+	_margin-left: -18.8em;
+	position: relative;
+	z-index: 10;
+	background-color: #336799;
+}
+
+.menu_left{
+	background-color: #244f80;
+	padding-bottom: 0.005em;
+}
+
+.menu_left li{
+	background-color: #2b5c91;
+	margin-bottom: 0.1em;
+	border-top: 0.1em solid #336799;
+	border-bottom: 0.1em solid #336799;
+}
+
+.menu_left li a:link,
+.menu_left li a:visited{
+	color: #6999c0;
+	border: 0;
+	font-size: 1.6em;
+	padding: 0.375em 0.625em;
+	display: block;
+	width: 10.4em;
+}
+
+.menu_left li a:hover{
+	color: #FFF;
+}
+
+.menu_left li:hover{
+	background-color: #255387;
+}
+
+.meu_left li:hover a{
+	color: #FFF;
+}
+
+.menu_left li.active{
+	background-color: #eaf1f9;
+	padding: 0.375em 0em;
+	border: 0;
+	border-right: 0.1em solid #d7e3ef;
+}
+
+.menu_left li.active span{
+	color: #2b5c91;
+	font-size: 1.6em;
+	padding: 0em 0.625em;
+	display: block;	
+}
+
+.menu_left li.active a:link,
+.menu_left li.active a:visited{
+	color: #76accf;
+	padding-left: 2.0833em;
+	display: block;
+	width: 12.95em;
+}
+
+.menu_left li.active a:hover{
+	color: #2b5c91;
+}
+
+.menu_left li.active li{
+	background-color: transparent;
+	border: 0;
+	margin: 0;
+}
+
+.menu_left li.active li.active span{
+	color: #2b5c91;
+	padding: 0.0833em 0em 0.1666em 2.0833em;
+	display: block;
+	width: 12.95em;
+}
+
+.menu_left .sublevel{
+	font-size: 0.75em;
+}
+
+
+/* RIGHT BLOCK */
+
+#rightblock{
+	float: left;
+	width: 100%;
+	border-left: 18.8em solid #336799;
+	margin-left: -18.8em;
+}
+
+#content{
+	background-color: #eaf1f9;
+	padding: 1.8em 0em;		
+	border-bottom: 0.1em solid #2b5b8d;
+	border-right: 0.1em solid #2b5b8d;
+	border-top: 0.1em solid #FFF;
+}
+
+#content h3{
+	padding: 0em 1.25em;
+}
+
+#content h4{
+	padding: 0em 1.4285em;
+}
+
+#content p{
+	font-size: 1.2em;
+	padding: 0.833em 1.666em;	
+	margin-bottom: 0.833em;
+	border-bottom: 0.0833em dashed #bccee1;
+}
+
+/* FOOTER */
+
+#footer{
+	clear: both;
+	margin: 0em 2em 2em 2em;
+	background: #FFF;
+	border: 0.5em solid #336799;
+	border-top: 0;	
+}
+
+#footer .outline{
+	border: 0.1em solid #2b5b8d;
+	padding: 0.5em 1em;	
+}
+
+#footer .timegen{
+	float: left;
+	font-size: 1.2em;
+}
+
+#footer .copyright{
+	text-align: right;
+	font-size: 1.2em;
+}
