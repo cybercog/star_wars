@@ -1,0 +1,61 @@
+the temp i use is mtka, fencer4000, rifleman 0002, pistolieer 0004, enchanced reflexes 0300, jedi defender4000, and novice medic
+
+
+is this it? http://web.archive.org/web/20050429032800/http://forums.station.sony.com/swg
+http://swgemuservers.com/precuscrapbookv5/tree/index.html
+http://swgemuservers.com/precuscrapbookv5/data/20070127012026/index.html
+
+Talon's Guide to Fishing
+Sabrehawk
+
+By [font color=gold]Talon[/font]
+
+After a long, hard day's work of crafting, or running missions, or making the endless rounds of checking harvesters, a lot of people need a break from the grind. If you haven't tried fishing, you're missing out on some mindless, yet fun entertainment. A few people have told me they didn't quite understand the fishing system in SWG, so here's my guide to fishin'. Enjoy!
+
+What you need:
+
+* Fishing Pole - Higher the quality pole the better. As I discover exactly what effects the quality rating of a pole has on the fishing experience, I'll keep this updated. But I do know that I catch more fish with a higher quality rod than a lower one.
+
+* Bait - It comes in two forms that I know of. Insect bait, and Chum. Insect Bait can found by foraging, if you're a scout. Chum is a handy byproduct that comes from fileting a fish you've already caught. If you're not a scout, and you haven't caught a fish, you'll have to buy your bait. Lucky for you there's a really good bait shop I know of in the SW Corner of Naboo! Bait is reusable! So don't buy more than about 5-10 pieces of bait at a time.
+
+* Pond, Lake, River, or Ocean - Sounds like a given, but there's a lot to be said for finding the right fishin' hole. If you're not sure if the water you're standing in front of has fish in it, cast in your line and see! Biggest thing you're looking for is the star rating for the fish density. This will be displayed in the fishing menu, once you cast your line in, along with the vegetation rating. Vegetation isn't as important as the fish density, but it DOES effect your fishing experience. You'll have more fish snap your line and steal your bait in a heavier vegetation spot, than you would with no vegetation. Just as with fish density, vegetation is displayed in 1 to 5 stars, with 5 being the heaviest.
+
+That's all you need to get started catchin' some fish, aside from a little know-how. Now we'll get into the nitty-gritty mechanics of the sport.
+
+Basic Overview of the SWG Fishing System:
+
+Fishing in SWG is set up in a sort of real-time, round-based system, much like combat is. Each round lasts a few seconds, in which you have to make your decision as to what to do with your rod and reel. You can't queue these actions like you can in combat, because you'll be making your decision of what to do, based on the status of your line.
+
+First things first:
+
+After you have everything you need, its time to get started. First thing you want to do is equip your fishing pole. You do this just like you would any other item. Next, you need to bait your hook. Find your bait in your inventory, pick it up and drag it on to your pole. You should see the number to the upper right of your pole change from 0 to indicate that it is baited. Now you're ready to cast.
+
+To cast your rod, stand within 2 meters of the edge of the water and use the radial menu on your pole to "Start Fishing." You'll then cast your rod into the water. I believe this is where the quality of the pole comes in, but I'm not positive. The better the pole, the better the cast.
+
+Using the Fishing Menu:
+
+Shortly after you see your bait splash into the water, a menu will appear, giving you the details of the spot you've chosen to fish, with ratings on fish density, and vegetation, as we discussed above. You'll also see the distance between you and your bait, as well as the status of your bait, whether it's Fresh or Mush and ready to fall off your line. The most important piece of information, however, is the status of your line. This will help you decide what action to take for the upcoming time-round of fishing.
+
+Hooking a Fish:
+
+There are 4 different things you will see in the line status. Each one will require a different reaction from you, in order to get the fish on your line. Your possible actions are selected by choosing from the list below the information panel in the Fishing Menu, and then clicking on "OK." Here is a list of what you'll see in the Line Status display:
+
+* Waiting... Means just what it says. You wait. You're line's floating out there waiting for a fish to take interest. You may want to do any number of things in an attempt to entice the fish into taking a nibble. You can give it a little tug, or you can slowly reel in your line a bit. Just like the real-world equivilent, every fisherman's got their own bag of tricks.
+
+* Nibble... At this point, you want to try to really get the interest of the already curious fish. So give the line a good tug in one direction or another and he'll soon be coming after that energetic bait full-force. Deciding which direction to go with your tug is entirely up to you. Again, each fisherman's got their own style.
+
+* Bite! He's taken the bait! Now all you have to do is set the hook! One more good tug in one direction or another ought to the trick. Soon he'll be wishing he'd passed up that nice looking meal.
+
+* Caught Something! This is it! You've done all the right things up to this point and all your hard work will soon pay off... assuming he doesn't give you slip. Again, this is where vegetation comes into play. As soon as you get to this point, select "Small Reel-in" and hit ok, and the menu will disappear, giving you a good view of what's going on. If you look hard enough you'll see a little red or black dot in the water. That's your float, or bobber as it's called, indicating where your catch is. Once the menu disappears, you start to reel in your catch and battle him all the way into shore. You're also free to walk around to get a better angle on him, but don't go too far, it might hinder the process instead of help!
+
+Once you've got a fish on the line, there's really only two possible outcomes. You either catch a fish or you don't. If it turns out to be that big one that got away, no worries. Just cast it in again, and begin the process all over. Fishing is about patience and perseverance. That next cast might be that big one yet!
+
+Now that you've got one, what do you do with it??
+
+When you finally DO get that catch out of the water, you can congratulate yourself on a fine job, and then get down to business cleaning it. Go into your inventory to find the fish you've caught, and select "Filet" from its radial menu. You'll see two things added to your inventory, Chum Bait, and Fish Meat. Chum Bait of course is good for more bait when you run out of your first batch. Fish meat, unless you're a chef or a bio-engineer, you probably have no use for. Still, you're in luck, because Ta'lon's Bait & Tackle, located in Avian City, in the SW Corner of Naboo in the Chilastra Galaxy, will buy your fish meat from you when you're done! The buying price for fish meat may vary, but the signs in the shop will post the current market price. Contact Ta'lon on the Chilastra Server for further details about where my shop is located!
+
+--------------------
+
+Whether you're just fishing for fun, or you turn into a commercial fisherman, I hope you find this guide to fishing helpful, and informative. Happy fishing, and go catch those biggun's!
+
+- Ta'lon Prestok, Chilastra Galaxy

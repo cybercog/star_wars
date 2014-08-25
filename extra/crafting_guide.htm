@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SWG Star Wars Galaxies Crafting Guide</title>
+<meta name="description" content="SWG Star Wars Galaxies Online" />
+<meta name="keywords" content="SWG, Star Wars Galaxies Online" />
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="stylesheet" href="http://www.starwarsgalaxiesonline.com/content/templates/1/website.css" type="text/css" />
+<script language="javascript" type="text/javascript" src="http://www.starwarsgalaxiesonline.com/content/website.js"></script>
+<script language="JavaScript" type="text/javascript"><!-- 
+google_hints = "swg credit credits star wars galaxies starwars";
+game_name = "Star Wars Galaxies";
+ --></script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="main">
+		<div class="content">
+<div align="center">
+<script language="JavaScript" type="text/javascript"><!--
+var adsense_adunit = new Object();
+adsense_adunit['size'] = '468x60';
+adsense_adunit['width'] = '468';
+adsense_adunit['height'] = '60';
+adsense_adunit['size'] = 'horizontal';
+adsense_adunit['max_num_ads'] = 2;
+if (!adsense_adunit_array) { var adsense_adunit_array = new Array(); }
+adsense_adunit_array[adsense_adunit_array.length] = adsense_adunit;
+document.write('<div id="google-banner'+(adsense_adunit_array.length-1)+'"></div>');
+--></script><div id="beacon_68" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='http://adserver.mpogonline.com/adlog.php?bannerid=68&amp;clientid=21&amp;zoneid=31&amp;source=&amp;block=0&amp;capping=0&amp;cb=4900a6aa91d60424fad59962be0536d5' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div></div><div align="center"><h1>SWG Star Wars Galaxies Crafting Guide</h1></div><br />This <b>Crafting Guide</b> was submitted by: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#122;&#101;&#110;&#51;&#51;&#48;&#56;&#51;&#64;&#122;&#101;&#110;&#46;&#99;o.uk">Imodi Ibanei</a>.<br /><br />Hi all, due to the fact I have such a dull job, I thought I would write a guide on macroing your way through artisan. I will write both the macros I use personally and the command line meanings, its always better ot write your own specific to your character. <br /><br />Artisan is generally split into two halves experience wise, crafting and surveying. any one looking at going into one of the elite crafting professions would be advised to concentrate their efforts on the engineering tree and the surveying trees. Now regarding the merchant path very quickly, this makes vendors available to the player, so allowing them to sell their goods. <br /><br />However I have heard that the merchant elite profession is a throw away profession, in that once you unlock more vendors you can then surrender your skill points without losing any of the vendors you aquire, this is to be confirmed, and will post update as to if it still the case. <br /><br /><b>Surveying</b><br /><br />This is as important as the crafting its self. if you want to be able to make competitive products then you will have to mine your own resources, without survey 4 it will take a great deal of time to track down good areas for mining. <br /><br />OK so surveying and sampling is dull when grinding it for xp, so how to speed things up. first select your survey tool, then goto one of the metals then click survey, some numbers will appear on the small map, these percentages are the quantity of the mineral in that area, find a metal with good percentage (70% +) then move to the waypoint created for highest spot. survey again and move to highest, keep doing this till you are in the highest concentration area. (hint look for harvesters already placed). <br /><br />Now I did this as TKM hence the meditate command, I would also strongly advise getting medic and a good quantity of stims. <br /><br />All macros are both case and space sensitive if it doesn't work check your typing, all else fails delete offending line and re-type carefully. <br /><br />Also when running macros for prolonged periods of time client can get confused, best bet is to try stopping macro and restarting or exit swg and re-enter. <br /><br />SURVEY XP MACRO:<blockquote>/survey;<br />/pause 3; <br />/sample; <br />/pause 120; <br />/stand; <br />/tenddamage self; <br />/pause 3; <br />/tenddamage self; <br />/pause 3; <br />/meditate; <br />/pause 60; <br />/stand; <br />/pause 3; <br />/ui action toolbarSlot 00;</blockquote>Code meanings:<ul><li>"/survey" simply surveys the area (don't need it but I found it helped keep reliable xp come in) </li><li>"/pause" pauses the macro whilst character is doing action, time is in seconds.</li><br /><li>"/sample" this samples and extracts the area, and it is this that gives you xp.</li><br /><li>"/tenddamage self" is the heal self command, sampling uses action, this restores your actions at the expence of mind wounds.</li><br /><li>"/meditate" for TKM this heals your wounds.</li><br /><li>"/ui action toolbarSlot00;" this is a very very useful command and u will see it quite often, it basically points to the F1 box at the top of the screen. so if you place your new macro in the box it will loop the macro</li></ul>Now if you aren't TKM there are 2 options available to you, 1st is to use stims, (same command as in game, look at action box ctrl-A for command if not sure) this will recover your action without wound cost. alternatively you can use the "/sit;" command followed by "/pause 60; placing what ever time is required to recover your action. be sure to allow action to fully recover before it loops otherwise you will eventually catch up with yourself and be unable to sample. experiment with times to find best combination of time sampling and time recovering. <br /><br />Ok this macro is completely automated and fully looped, requiring no input by the user at any time. so how do you stop it to go and get trained? <br /><br />Create another macro: <br /><br />END MACRO:<blockquote>/dump; <br />/dump; <br />/dump;</blockquote>and place this in your toolbar aswell. reason for 3 of same line is on occasion dump doesn't always work and so multiple attempts may be required. NOTE: dump command only works when in pause section of macro! ie macro paused whilst character is doing last commanded action. <br /><br />Ok so this makes the whole XP thing quite easy, on a good patch you should be able to get 1000 - 2000 xp per hour, not a lot, but better than manual. esspecially when u leave it running and goto bed. <br /><br />Right so what can u do whilst you are sampling? When you have reached the 1st or second level you will have enough metal to start crafting, and strangely enough you can craft (MANUALY) whilst running this macro. simply build lots and lots of wind survey or solar survey tools. I reached level 2 business and engineering whilst running this macro in waking time (was AFK for the rest), simply place the metal you have extracted into the tools and create the 1st for real and the subsequesnt ones as "PRACTICE" items, (so not to waste storage). (see holo help ctrl-H for crafting basics) <br /><br />Right now you have level 4 surveying and made some way towards your engineering, how can you pick up the pace on crafting? very simply using below macro. to start with you need to build a total of 3 - 5 generic crafting tools and structure crafting tools. then place each type in a row starting with F2 in a new toolbar. (ie one set of generic and one set of structure). <br /><br />Now you need to find your schematic number. untill you have level 3 engineering we will be practice building survey tools (solar or wind are good) when have level 3 will be building small harvesters. <br /><br />Goto datapad and click on schematics (DO NOT SORT THE LIST BY CLICKING ON ANY BUTTONS!!!!) and count down to the item you want, then place in following macro. (eg 33rd item) <br /><br />FIND SCHEMATIC NO:<blockquote>/ui action toolbarSlot01; <br />/selectdraftschematic 33;</blockquote>Then run it, it will open the crafting tool in F2 and open a schematic, if this is the one you want then great, otherwise close and adjust the schematic number. basically there is no definite way of getting the schematic number, but counting down the datapad list will give you a rough area, eg 33 + - 5 (28 to 38) so trial and error within range to find it. <br /><br />When u have schematic number we can build the crafting macro. Now crafting macros do everything automatically except adding resources, this is impossible without cheating programs that will get you banned  but its only a double click to add them anyway  <br /><br />Place the following macro in box F1 <br /><br />CRAFTING:<blockquote>/ui action toolbarSlot01; //uses first tool in F2 box <br />/selectdraftschematic 33; <br />/pause 5; // this pause is to add resources, change to suit <br />/nextC; <br />/nextC; <br />/nextC; <br />/createprototype practice no item; <br />/createprototype practice no item; <br />/pause 2; <br />/ui action toolbarSlot02; //uses 2nd tool in F3 box <br />/selectdraftSchematic 33; <br />/pause 5; <br />/nextC; <br />/nextC; <br />/nextC; <br />/createprototype practice no item; <br />/createprototype practice no item; <br />/pause 2; <br />/ui action toolbarSlot03; <br />/selectdraftSchematic 33; <br />/pause 5; <br />/nextC; <br />/nextC; <br />/nextC; <br />/createprototype practice no item; <br />/createprototype practice no item; <br />/pause 2; <br />/ui action toolbarSlot04; <br />/selectdraftSchematic 33; <br />/pause 5; <br />/nextC; <br />/nextC; <br />/nextC; <br />/createprototype practice no item; <br />/createprototype practice no item; <br />/pause 2; <br />/ui action toolbarSlot00; /loops macro</blockquote>Meanings:<ul><li>"/selectdraftschematic 33;" selects schematic number 33 and places in crafting tool.</li><br /><li>"/nextC;" or /nextcraftingstage basically goes to next stage in crafting.</li><br /><li>"/createprototype practice no item;" creates a practice item.</li></ul>I will double check how to actually create the item if u want to do so and post later.<br /><br />This macro uses 4 tools, adjust depending on how many tools and schematic you use. also adjust timing to get smothest run. and allow plenty of time to double click resources. <br /><br />As a level 2 engineer building wind survey tools I was getting 18,000 XP per hour using just three crafting tools whilst practice building wind survey tools. use this till you reach level 3 engineering. <br /><br />Now once you are at level 3 engineering build or buy the constrction tools mentioned earlier, goto a new toolbar and follow same proceedure as above, this time we are going to be building mineral harvesters. minimum of 400 xp per item. now for the rest you are going to need a lot of resources, ore, metal and aluminium, once aquired these then you can run the macro for harvesters, and you sould be able to get about at least 2000xp per minute. (tip: adjust the times for entering resources to 10-15, there are more resources and it takes longer to load this schematic). with this you will have level 4 and your novice specialisation in no time.<br /><br /><br />The macro can be adjusted and place on other toolbar for other crafting tools, and the basic principals can be used in any crafting, meds to weapons  <br /><br />Ok that will do from me I think, if I have missed anything then please comment, <br /><br />Have fun all
+<br /><div align="center" style="padding: 5px; border: 1px dashed #FFF;"><b><a href="http://swg.skryer.com/">Skryer has all your Star Wars Galaxies cheats, exploits, hacks, guides, strategies, and more!</a></b></div>
+<br /><script language="JavaScript" type="text/javascript"><!--
+var adsense_adunit = new Object();
+adsense_adunit['size'] = 'line';
+adsense_adunit['max_num_ads'] = 4;
+adsense_adunit['ad_direction'] = 'vertical';
+if (!adsense_adunit_array) { var adsense_adunit_array = new Array(); }
+adsense_adunit_array[adsense_adunit_array.length] = adsense_adunit;
+document.write('<div id="google-banner'+(adsense_adunit_array.length-1)+'"></div>');
+--></script><div id="beacon_70" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='http://adserver.mpogonline.com/adlog.php?bannerid=70&amp;clientid=21&amp;zoneid=42&amp;source=&amp;block=0&amp;capping=0&amp;cb=eb13c469e1a2c10bb3569f9fd56765be' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div>			<br />
+		</div>
+		<div id="footer">
+Star Wars and Star Wars Galaxies are registered tradmarks of Lucasfilm Ltd. All rights are reserved.
+		</div>
+	</div>
+
+	<div id="header">
+	  <div id="header1"><a href="http://www.starwarsgalaxiesonline.com"><img src="http://www.starwarsgalaxiesonline.com/content/templates/1/images/header.jpg" width="600" height="115" alt="SWG Star Wars Galaxies Online" border="0" /></a></div>
+	  <div id="slogan">SWG Star Wars Galaxies Online - &nbsp;(<a href="#" onClick="this.style.behavior='url(#default#homepage)'; this.setHomePage('http://www.starwarsgalaxiesonline.com/content/guides-craftingguide.php');">Make Homepage</a>
+<script>
+var url = "http://www.starwarsgalaxiesonline.com/content/guides-craftingguide.php";
+
+// caption to appear with bookmark
+var who = "Crafting Guide - SWG Star Wars Galaxies Online"
+
+var ver = navigator.appName
+var num = parseInt(navigator.appVersion)
+if ((ver == "Microsoft Internet Explorer")&&(num >= 4)) {
+   document.write(' | <a href="javascript:window.external.AddFavorite(url,who);">Add Bookmark</a>'); }</script>)
+</div>
+	  <div id="date">January 14, 2008</div>
+	</div>
+
+<div id="banner01">
+	<div id="banner01b">
+	<table cellspacing="0" cellpadding="0" border="0"><tr><td align="center" valign="middle" height="92">
+<script language="JavaScript" type="text/javascript"><!--
+var adsense_adunit = new Object();
+adsense_adunit['size'] = '728x90';
+adsense_adunit['width'] = '728';
+adsense_adunit['height'] = '90';
+adsense_adunit['max_num_ads'] = 4;
+adsense_adunit['ad_direction'] = 'horizontal';
+if (!adsense_adunit_array) { var adsense_adunit_array = new Array(); }
+adsense_adunit_array[adsense_adunit_array.length] = adsense_adunit;
+document.write('<div id="google-banner'+(adsense_adunit_array.length-1)+'"></div>');
+--></script><div id="beacon_67" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='http://adserver.mpogonline.com/adlog.php?bannerid=67&amp;clientid=21&amp;zoneid=54&amp;source=&amp;block=0&amp;capping=0&amp;cb=93587755eccd52e85d5f0254812e5d72' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div>	</td></tr></table>
+	</div>
+</div>
+<script language="JavaScript" type="text/javascript">
+<!--
+function google_ad_request_done(google_ads) {
+	if (google_ads.length < 1 ) { return; } // Proceed only if we have ads to display!
+	var adsense_ad_num = 0;
+	for (x in adsense_adunit_array) {
+		if (x >= 3) { continue; }
+		adsense_length = adsense_adunit_array[x].max_num_ads;
+		if (adsense_length > (google_ads.length-adsense_ad_num)) { adsense_length = (google_ads.length-adsense_ad_num); }
+		var i = 0;
+		switch(adsense_adunit_array[x].size) {
+			case '125x125':
+			case '234x60':
+			case '468x60':
+			case '728x90':
+			case '120x600':
+			case '160x600':
+			case '180x150':
+			case '120x240':
+			case '200x200':
+			case '250x250':
+			case '300x250':
+			case '336x280':
+			case 'vertical':
+			case 'horizontal':
+			case 'line':
+				var ad_unit = '';
+				for (i = 0; i < adsense_length; ++i) {
+					if (!google_ads[adsense_ad_num]) { continue; }
+					if (i == 0) {
+						ad_unit += '<div id="google-adsense-banner">';
+						ad_unit += '<table width="'+adsense_adunit_array[x].width+'" height="'+adsense_adunit_array[x].height+'" cellspacing="0" cellpadding="0" border="0">';
+						if (adsense_adunit_array[x].ad_direction == 'horizontal' || !adsense_adunit_array[x].ad_direction) { ad_unit += '<tr>'; }
+					}
+					if (adsense_adunit_array[x].ad_direction == 'vertical') { ad_unit += '<tr>'; }
+					ad_unit += '<td style="padding: 0 10px;" align="left">' 
+					+ '<a href="' + google_ads[adsense_ad_num].url + '" class="subject">' + google_ads[adsense_ad_num].line1 + '</a>';
+					if (adsense_adunit_array[x].size == 'line') { ad_unit += ' '; } else { ad_unit += '<br />'; }
+					ad_unit += '<a href="' +  google_ads[adsense_ad_num].url + '" class="desc">' + google_ads[adsense_ad_num].line2;
+					if ((adsense_adunit_array[x].size == '468x60' || adsense_adunit_array[x].size == '234x60') && adsense_length > 1) { ad_unit += '<br />'; } else { ad_unit += ' '; }
+					ad_unit += google_ads[adsense_ad_num].line3 + '</a>';
+					if (!((adsense_adunit_array[x].size == '468x60' && adsense_length > 1) || adsense_adunit_array[x].size == '234x60')) { 
+						if (adsense_adunit_array[x].size == 'line') { ad_unit += ' '; } else { ad_unit += '<br />'; }
+						ad_unit += '<a href="' +  google_ads[adsense_ad_num].url + '" class="url">' + google_ads[adsense_ad_num].visible_url + '</a>'; 
+					}
+					if (adsense_adunit_array[x].size == 'line' || adsense_adunit_array[x].size == 'vertical') { ad_unit += '<br /><br />'; }
+					ad_unit += '</td>';
+					if (adsense_adunit_array[x].ad_direction == 'vertical') { ad_unit += '<tr>'; }
+					if (((i == 0) && (i+1) == adsense_length) || i == (adsense_length-1)) {
+						if (adsense_adunit_array[x].ad_direction == 'horizontal' || !adsense_adunit_array[x].ad_direction) { ad_unit += '</tr>'; }
+						
+						// Print "Ads By Google" -- include link to Google feedback page if available
+						ad_unit += '<tr><td width="100%" align="right" valign="bottom"';
+						if (adsense_length > 1) { ad_unit += ' colspan="'+(i+1)+'"'; }
+						ad_unit += '>';
+						if (google_info.feedback_url) { ad_unit += '<a href="' + google_info.feedback_url + '" class="adsby">'; }
+						ad_unit += 'Ads By Google';
+						if (google_info.feedback_url) {	ad_unit += '</a>'; }
+						ad_unit += '</td></tr>';
+		
+						ad_unit += '</table>';
+						ad_unit += '</div>';
+					}
+					++adsense_ad_num;
+				}
+				document.getElementById('google-banner'+x).innerHTML += ad_unit;
+			break;
+		}
+	}
+}
+
+// Ad Vars
+google_ad_client = "pub-0211744482601532";
+google_ad_output = "js";
+google_feedback = "on";
+google_ad_type  = "text";
+
+var google_max_num_ads = 0;
+for (x in adsense_adunit_array) { google_max_num_ads += adsense_adunit_array[x]['max_num_ads']; }
+-->
+</script>
+<script language="JavaScript" type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script><div id="beacon_66" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='http://adserver.mpogonline.com/adlog.php?bannerid=66&amp;clientid=21&amp;zoneid=0&amp;source=&amp;block=0&amp;capping=0&amp;cb=c0323ac38846cbb703b52db4bac771dd' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div>
+		<div id="navleft">
+		  <div class="navbox">
+			<div class="content linkunit"">
+				<div class="linkunit2">
+				<script type="text/javascript"><!--
+				google_ad_client = "pub-0211744482601532";
+				ad_link_width = 120;
+				if (screen.width >= 1152) { ad_link_width = 160; }
+				if (screen.width >= 1280) { ad_link_width = 180; }
+				if (screen.width >= 1600) { ad_link_width = 200; }
+				google_ad_width = ad_link_width;
+				google_ad_height = 90;
+				google_ad_format = ad_link_width + "x90_0ads_al_s";
+				google_ad_channel ="4621580750";
+				google_color_border = "4B5654";
+				google_color_bg = "161A19";
+				google_color_link = "EFE8CF";
+				google_color_url = "EFE8CF";
+				google_color_text = "CFCFCF";
+				//--></script>
+				<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+				</div>
+			</div>
+		  </div>
+		  <div class="navbox">
+			<div class="top">Information</div>
+			<div class="content">
+			   ::&nbsp;<a href="http://www.starwarsgalaxiesonline.com" title="Home">Home</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/starwarsgalaxies-beta.php" title="Beta">Beta</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/images/gallery/concept-art/" title="Concept Art">Concept Art</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/starwarsgalaxies-demo.php" title="Demo">Demo</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/starwarsgalaxies-freetrial.php" title="Free Trial">Free Trial</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/starwarsgalaxies-jumptolightspeed.php" title="Jump to Lightspeed">Jump to Lightspeed</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/starwarsgalaxies-movies.php" title="Movies">Movies</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/starwarsgalaxies-requirements.php" title="Requirements">Requirements</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/starwarsgalaxies-reviews.php" title="Reviews">Reviews</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/images/gallery/screenshots/" title="Screenshots">Screenshots</a><br />
+			</div>
+		  </div>
+		  <div class="navbox">
+			<div class="top">Guides</div>
+			<div class="content">
+			   ::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/guides-addguide.php" title="Add Guide">Add Guide</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/guides-architectcalculator.php" title="Architect Calculator">Architect Calculator</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/guides-architectguide.php" title="Architect Guide">Architect Guide</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/guides-characterbuilder.php" title="Character Builder">Character Builder</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/guides-cheats.php" title="Cheats">Cheats</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/guides-craftingguide.php" title="Crafting Guide">Crafting Guide</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/guides-credits.php" title="Credits">Credits</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/guides-exploits.php" title="Exploits">Exploits</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/guides-macros.php" title="Macros">Macros</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/guides-medicguide.php" title="Medic Guide">Medic Guide</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/guides-strategyguide.php" title="Strategy Guide">Strategy Guide</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/guides-teraskasiartistguide.php" title="Teras Kasi Artist Guide">Teras Kasi Artist Guide</a><br />
+			</div>
+		  </div>
+		  <div class="navbox">
+			<div class="top">Locations</div>
+			<div class="content">
+			   ::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/locations-corellia.php" title="Corellia">Corellia</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/locations-dantooine.php" title="Dantooine">Dantooine</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/locations-dathomir.php" title="Dathomir">Dathomir</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/locations-endor.php" title="Endor">Endor</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/locations-lok.php" title="Lok">Lok</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/locations-naboo.php" title="Naboo">Naboo</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/locations-talus.php" title="Talus">Talus</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/locations-tatooine.php" title="Tatooine">Tatooine</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/locations-yavin4.php" title="Yavin 4">Yavin 4</a><br />
+			</div>
+		  </div>
+		  <div class="navbox">
+			<div class="top">Network</div>
+			<div class="content">
+			   ::&nbsp;<a href="http://www.anarchyonlineonline.com/" title="Anarchy Online">Anarchy Online</a><br />::&nbsp;<a href="http://www.cityofheroesonline.com/" title="City of Heroes">City of Heroes</a><br />::&nbsp;<a href="http://www.diablo2guide.com/" title="Diablo 2">Diablo 2</a><br />::&nbsp;<a href="http://www.dndo-online.com/" title="Dungeons & Dragons Online">Dungeons & Dragons Online</a><br />::&nbsp;<a href="http://www.everquest-online.com/" title="EverQuest">EverQuest</a><br />::&nbsp;<a href="http://www.eq2online.com/" title="EverQuest 2">EverQuest 2</a><br />::&nbsp;<a href="http://www.finalfantasyxionline.com/" title="Final Fantasy XI">Final Fantasy XI</a><br />::&nbsp;<a href="http://www.guildwarsonline.com/" title="Guild Wars">Guild Wars</a><br />::&nbsp;<a href="http://www.lineage2-online.com/" title="Lineage 2">Lineage 2</a><br />::&nbsp;<a href="http://www.lotronline.com/" title="Lord of the Rings Online">Lord of the Rings Online</a><br />::&nbsp;<a href="http://www.maplestory-online.com/" title="MapleStory">MapleStory</a><br />::&nbsp;<a href="http://www.matrix-online.com/" title="Matrix Online">Matrix Online</a><br />::&nbsp;<a href="http://www.secondlife-online.com/" title="Second Life">Second Life</a><br />::&nbsp;<a href="http://www.star-trekonline.com/" title="Star Trek Online">Star Trek Online</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/" title="Star Wars Galaxies">Star Wars Galaxies</a><br />::&nbsp;<a href="http://www.vanguardsohonline.com/" title="Vanguard: Saga of Heroes">Vanguard: Saga of Heroes</a><br />::&nbsp;<a href="http://www.worldofwconline.com/" title="World of Warcraft">World of Warcraft</a><br />
+			</div>
+		  </div>
+		 </div>
+		<div id="navright">
+		  <div class="navbox">
+			<div class="top">Screenshot</div>
+			<div class="content">
+			   <div align="center" class="randomscreen"><a href=http://www.starwarsgalaxiesonline.com/content/images/gallery/jump-to-lightspeed/20040827008_G><img src="http://www.starwarsgalaxiesonline.com/content/images/gallery/albums/jump-to-lightspeed/20040827008_G.thumb.jpg" width=160 height=120  alt="An explosion with a tie fighter and X-Wing in the view." border="0" /></a><br />An explosion with a tie fighter and X-Wing in the view.<br />From: <a href=http://www.starwarsgalaxiesonline.com/content/images/gallery/jump-to-lightspeed>Jump to Lightspeed Expansion</a></div>
+			</div>
+		  </div>
+		  <div class="navbox">
+			<div class="top">Species</div>
+			<div class="content">
+			   ::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/species-bothan.php" title="Bothan">Bothan</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/species-human.php" title="Human">Human</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/species-moncalamari.php" title="Mon Calamari">Mon Calamari</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/species-rodian.php" title="Rodian">Rodian</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/species-trandoshan.php" title="Trandoshan">Trandoshan</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/species-twilek.php" title="Twi'lek">Twi'lek</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/species-wookiee.php" title="Wookiee">Wookiee</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/species-zabrak.php" title="Zabrak">Zabrak</a><br />
+			</div>
+		  </div>
+		  <div class="navbox">
+			<div class="top">Starting Professions</div>
+			<div class="content">
+			   ::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/startingprofessions-artisan.php" title="Artisan">Artisan</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/startingprofessions-brawler.php" title="Brawler">Brawler</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/startingprofessions-entertainer.php" title="Entertainer">Entertainer</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/startingprofessions-marksman.php" title="Marksman">Marksman</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/startingprofessions-medic.php" title="Medic">Medic</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/startingprofessions-scout.php" title="Scout">Scout</a><br />
+			</div>
+		  </div>
+		  <div class="navbox">
+			<div class="top">Elite Professions</div>
+			<div class="content">
+			   ::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-architect.php" title="Architect">Architect</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-armorsmith.php" title="Armorsmith">Armorsmith</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-carbineer.php" title="Carbineer">Carbineer</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-chef.php" title="Chef">Chef</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-creaturehandler.php" title="Creature Handler">Creature Handler</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-dancer.php" title="Dancer">Dancer</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-doctor.php" title="Doctor">Doctor</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-droidengineer.php" title="Droid Engineer">Droid Engineer</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-fencer.php" title="Fencer">Fencer</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-imagedesigner.php" title="Image Designer">Image Designer</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-jedi.php" title="Jedi">Jedi</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-musician.php" title="Musician">Musician</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-pikerman.php" title="Pikerman">Pikerman</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-pistoleer.php" title="Pistoleer">Pistoleer</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-ranger.php" title="Ranger">Ranger</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-rifleman.php" title="Rifleman">Rifleman</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-swordsman.php" title="Swordsman">Swordsman</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-tailor.php" title="Tailor">Tailor</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-teraskasiartist.php" title="Teras Kasi Artist">Teras Kasi Artist</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/eliteprofessions-weaponsmith.php" title="Weaponsmith">Weaponsmith</a><br />
+			</div>
+		  </div>
+		  <div class="navbox">
+			<div class="top">Hybrid Professions</div>
+			<div class="content">
+			   ::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/hybridprofessions-bio-engineer.php" title="Bio-Engineer">Bio-Engineer</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/hybridprofessions-bountyhunter.php" title="Bounty Hunter">Bounty Hunter</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/hybridprofessions-combatmedic.php" title="Combat Medic">Combat Medic</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/hybridprofessions-commando.php" title="Commando">Commando</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/hybridprofessions-smuggler.php" title="Smuggler">Smuggler</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/hybridprofessions-squadleader.php" title="Squad Leader">Squad Leader</a><br />
+			</div>
+		  </div>
+		  <div class="navbox">
+			<div class="top">Site</div>
+			<div class="content">
+			   ::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/site-contactus.php" title="Contact Us">Contact Us</a><br />::&nbsp;<a href="http://www.starwarsgalaxiesonline.com/content/site-links.php" title="Links">Links</a><br />
+			</div>
+		  </div>
+		</div>
+</div>
+</body>
+</html>

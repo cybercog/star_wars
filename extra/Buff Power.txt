@@ -1,0 +1,48 @@
+Total Buff Power
+ 
+Heal Power of Pack x Environment x [(100 + Wound Treatment Skill + Bivoli + BE modded clothes) / 100] x Med City Bonus
+ 
+for example:
+900 Heal Power Buff pack
+110 Medical Rating Droid
+100 Master Doctor Skill
+25 Bivoli
+25 BE clothes
+10% Medical City Specialization Bonus
+ 
+900 x 1.1 x [(100+100+25+25)/100] x 1.1 = 2722 total buff
+ 
+--------------------------------------------------------------------------------
+Now how Battle Fatigue affects this...
+ 
+If player Battle Fatigue is 0 - 250 = no change in buff value.
+ 
+If player Battle Fatigue is greater than 250 then...
+ 
+Buff - [Buff x (Battle Fatigue-250) / 1000] = Buff after Battle Fatigue
+ 
+so with 696 Battle Fatigue (Randomly chosen number)
+ 
+2722 - [ 2722 x (696 - 250) / 1000] = 1507 buffed after 696 Battle Fatigue
+ 
+Helpful Notes:
+ 
+ 
+* Wearing armor does NOT affect buff power.
+* Bio-engineered clothes effectively cap at +25/+25 so a person with +9999/ +9999 will do the SAME as one with only +25/+25 injury/wound treatment clothes.
+* Bivoli DOES STACK with BE clothes.
+* Battle Fatigue does NOT affect buff performance until 250 Battle Fatigue. One could have 249 Battle Fatigue and it will be the same as one with 0 Battle Fatigue.
+* Battle Fatigue after 250 - affects the buff performance by 1% per 10 Battle Fatigue.
+* At 1000 Battle Fatigue (when Battle Fatigue caps) buff performance is reduced by 75%.
+* At 750 Battle Fatigue buff performance is reduced by 50%.
+* At 500 Battle Fatigue buff performance is reduced by 25%.
+* General Equation for Master Doctor with 110 Med Module Droid and 25/25 BE clothes : Buff Pack Power x 2.475 = total heal enhance.
+* Medical centers and scout camps override droid bonuses.
+* If not in a Medical Specialized Player City - the variable is calculated at 1.0.
+* If in a Medical Specialized Player City - the varible is calculated at 1.1.
+* Wound Treatment Speed are at a minimum of 18 seconds at Master Doctor.
+* Wound Treatment Speed can be affected by consuming Ruby Bliel or Havla.
+ 
+Message Edited by DoctorGriggs on 12-26-2004 07:52 PM
+ 
+That's everything that affects buffing. Pick whatever species you'd like to play monk :)

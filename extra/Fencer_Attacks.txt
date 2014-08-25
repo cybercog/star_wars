@@ -1,0 +1,137 @@
+Attack: Standard Melee Attack
+Macro Name: /attack
+Chat Name: “swings at”
+Damage Multiplier: Listed weapon damage x 1.86 (Standard Fencer Multiplier, and is applied to ALL Fencer attacks in addition to the listed multiplier.)
+Info: This is the damage done when not performing any specials.  It is the damage that will appear in the combat chat box, and does not include any reductions due to the target’s defenses.  It will randomly target any HAM pool, but appears to have a slight preference towards the Health Pool (about 40-50% of the attacks hit Health, 20-30% Action, and 20-30% Mind.)
+
+Attack: BlindHit1
+Macro Name: /melee1hBlindHit1
+Chat Name: “Blinding Stab”
+Damage Multiplier: x 2.0
+Target: Single
+Effect: Blind (White “eye” icon on the target.)
+Info: Blind status significantly reduces the target’s accuracy, melee defense, and ranged defense.  Duration is a 5 second minimum, but is random and varies based upon the target’s Defense Vs. Blind.
+
+Attack: BlindHit2
+Macro Name: /melee1hBlindHit2
+Chat Name: “Blinding Slash”
+Damage Multiplier: x 2.5
+Target: All in range
+Effect: Blind (White “eye” icon on the target.)
+Info: This is the same effect as bestowed in BlindHit1, and is no more potent.  The only difference is that this is a multiple target area attack.  All targets in weapon range will be attacked, however a valid target must be chosen for the attack to work at all.
+
+Attack: BodyHit1
+Macro Name: /melee1hBodyHit1
+Chat Name: “Sai Mai”
+Damage Multiplier: x 1.5
+Target: Single
+Effect: Targets Health Pool
+Info: This is an efficiency attack.  All of the damage is applied directly to the Health Pool every time, rather than randomly across the 3 HAM bars.
+
+Attack: BodyHit2
+Macro Name: /melee1hBodyHit2
+Chat Name: “Sai Sun”
+Damage Multiplier: x 2.5
+Target: Single
+Effect: Targets Health Pool
+Info: Same as BodyHit1.
+
+Attack: BodyHit3
+Macro Name: /melee1hBodyHit3
+Chat Name: “Sai Tok”
+Damage Multiplier: x 3.5
+Target: Single
+Effect: Targets Health Pool
+Info: Same as BodyHit1.
+
+Attack: DizzyHit1
+Macro Name: /melee1hDizzyHit1
+Chat Name: “Skull Stab”
+Damage Multiplier: x 2.0
+Target: Single
+Effect: Dizzy (White “whirlwind” icon on target.)
+Info: By itself this effect does nothing.  However, if the target attempts an upward posture change while Dizzy, they can potentially suffer a “Fall Down”.  The effects of a “Fall Down” are identical to those of a Knockdown, except that it doesn’t count against the delay timer as a Knockdown.  Duration of Dizzy is a 5 second minimum, but is random and varies based upon the target’s Defense Vs. Dizzy.
+Special Info:  This is designed to be combined with the Novice Brawler “Lunge1” attack to force a posture down (which usually inspires the target to attempt to “get back up”), or a regular Knockdown.
+
+Attack: DizzyHit2
+Macro Name: /melee1hDizzyHit2
+Chat Name: “Skull Slash”
+Damage Multiplier: x 3.5
+Target: All in range
+Effect: Dizzy (White “whirlwind” icon on target.)
+Info: This is the same effect as bestowed in DizzyHit1, and is no more potent.  The only difference is that this is a multiple target area attack.  All targets in weapon range will be attacked, however a valid target must be chosen for the attack to work at all.
+
+Attack: HealthHit1
+Macro Name: /melee1hHealthHit1
+Chat Name: “Shiim”
+Damage Multiplier: x 1.5
+Target: Single
+Effect: Bleeding and Wounding (Red “droplets” icon on target.), Target’s Health Pool
+Info: This is an efficiency attack.  This attack produces two consequences.  The first, but least significant, is the high probability of infliction of Wounds in the target’s Health Pool.  The primary effect is that of Bleeding, which drains the Health Pool over time.  The damage listed in chat is the amount of the Bleed established, but the attack itself does NO immediate damage.  15 seconds after the attack, the indicated damage is automatically deducted from the target’s Health pool, and again every 15 seconds after.  This will continue whether you are fighting, incapacitated, or dead.  The Bleeding will stop on its own after 10 cycles.  First Aid and Meditation can remedy Bleeding sooner.
+Special Info: HealthHit1 stacks with HealthHit2, HealthShot1, and HealthShot2 with each on their own timers.  Multiple hits with HealthHit1 are NOT cumulative, and do NOT reset the timer unless the damage is higher than the current HealthHit1.
+
+Attack: HealthHit2
+Macro Name: /melee1hHealthHit2
+Chat Name: “Shiim Shiak”
+Damage Multiplier: x 3.0
+Target: Single
+Effect: Bleeding and Wounding (Red “droplets” icon on target.), Target’s Health Pool
+Info: Same as HealthHit1.
+
+Attack: Hit1
+Macro Name: /melee1hHit1
+Chat Name: “Cho Mai”
+Damage Multiplier: x 2.5
+Target: Single
+Effect: None
+Info: This is the standard special attack, designed to simply boost damage output.
+
+Attack: Hit2
+Macro Name: /melee1hHit2
+Chat Name: “Cho Sun”
+Damage Multiplier: x 3.5
+Target: Single
+Effect: None
+Info: Same as Hit1.
+
+Attack: Hit3
+Macro Name: /melee1hHit3
+Chat Name: “Cho Mok”
+Damage Multiplier: x 5.0
+Target: Single
+Effect: Special, see below.
+Info: Same as Hit1, except that there is the added possibility (around 30-40%) of inflicting Blind on the target.
+
+Attack: ScatterHit1
+Macro Name: /melee1hScatterHit1
+Chat Name: “Scatter Stab”
+Damage Multiplier: x 3.0
+Target: Single
+Effect: Targets Multiple Simultaneous HAM Pools
+Info: This attack spreads its damage across 2 - 3 HAM Pools.  The targeted HAM Pools are randomly chosen, as is the damage distribution.
+
+Attack: ScatterHit2
+Macro Name: /melee1hScatterHit2
+Chat Name: “Scatter Shiak”
+Damage Multiplier: x 4.0
+Target: Single
+Effect: Targets Multiple Simultaneous HAM Pools
+Info: Same as ScatterHit1.
+
+Attack: SpinAttack1
+Macro Name: /melee1hSpinAttack1
+Chat Name: “Slash Spin”
+Damage Multiplier: x 2.0
+Target: All in range
+Effect: None
+Info: This is the basic Area Attack.  All targets in weapon range will be attacked, however a valid target must be chosen for the attack to work at all.
+
+Attack: SpinAttack2
+Macro Name: /melee1hSpinAttack2
+Chat Name: “Blind Spin”
+Damage Multiplier: x 3.0
+Target: All in range
+Effect: Blind (White “eye” icon on the target.)
+Info: Same as SpinAttack1, except that this also inflicts Blind, just as in BlindHit1.
+
+***Additional Attack Note:  All of the above Fencer Special Attacks impart an Accuracy bonus of approximately 20-30%.

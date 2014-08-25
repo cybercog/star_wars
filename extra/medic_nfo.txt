@@ -1,0 +1,38 @@
+Same type of experience for making any one of them. All Medical Crafting (which aids in Org Chem branch of tree).
+
+Stim A's:
+- Easy to make
+- Results in ~10 charges (without experiementation)
+- Small Crafting Experience
+- Any level of medic can use.
+- Random Small Damage healing (i've seen up to 125 health & action per use)
+
+Stim B's:
+- Tougher to make (requires other sub-assemblys)
+- Results in ~20 charges (without experiementation)
+- Lots more crafting Experience
+- Any level of medic can use
+- Random Small-Medium healing (usually not that great)
+
+Stim C's:
+- Roughly just as difficult to build as B's (but more resources used)
+- Results in ~25 charges (without experiementation)
+- Lots of crafting experience
+- Only higher level medics can use (pharm 4 but can experiment down to pharm 3)
+- Random Medium-High healing (real nice)
+
+Stim D's:
+- Lot more difficult to build
+-- Need factory matched items
+-- Need access to Personal crafting machine
+- Results in ~30?? charges (can't remember off hand)
+- Only Master Medics can use.
+- Random High healing
+
+If you're like most people. . . . you'll use A's until you can build C's and skip B's entirely (unless you just want the crafting exp.). Once you get C's you'll be welcomed by all in a group setting. D's make you even more popular but are a complete pain to make.
+
+
+
+[07:59] <_DM_> Quickheal requires at least 1000 mind to use, causes 10 wounds each to focus and willpower, plus 2 battle fatigue, and consumes about 2/3 of your mind bar, but it can heal up to 750 health and action damage per use.
+[08:10] <_DM_> tenddamage - This basic medic command requires no medicine and heals damage (white injury to HAM). Be warned that this will cause around 180 mind damage to you, as well as inflict battle fatigue and mind, willpower, and focus wounds. Note: this command grants no experience points.
+[08:10] <_DM_> tendwound - This basic medic command requires no medicine and heals a wound type (health, action, constitution, strength, stamina, or quickness). This command will cause about 350 mind damage and double the wounds as /tenddamage.
